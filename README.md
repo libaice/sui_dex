@@ -10,12 +10,13 @@ SuiSwap is a decentralized exchange (DEX) built using the Sui Move programming l
 
 ### ✨ **Features**
 
->•	Automated Market Maker (AMM) model based on Uniswap v2 (constant product formula x * y = k)
-> •	Support for creating and managing custom liquidity pools
-	•	Liquidity provision and withdrawal with LP token minting
-	•	Token swaps with slippage and fee support
-	•	Event emissions for front-end tracking
-	•	Fully object-oriented design aligned with Sui’s architecture
+>*  Automated Market Maker (AMM) model based on Uniswap v2 (constant product formula x * y = k)
+>*  Support for creating and managing custom liquidity pools
+>*  Liquidity provision and withdrawal with LP token minting
+>*  Token swaps with slippage and fee support
+>*  Event emissions for front-end tracking
+>*  Fully object-oriented design aligned with Sui’s architecture
+
 
 
 
@@ -25,14 +26,14 @@ SuiSwap is a decentralized exchange (DEX) built using the Sui Move programming l
 
 ### 🧱 **Architecture Overview**
 
-> • `LiquidityPool.move` — Defines and manages each token pair pool and its reserves.
-> • `Swap.move` — Executes swaps using the AMM formula with fee logic.
-> • `Math.move` — Utility module for computing prices, ratios, and LP shares.
-> • `Events.move` — Emits structured events (e.g., AddLiquidity, Swap, RemoveLiquidity).
-
+>*  `LiquidityPool.move` — Defines and manages each token pair pool and its reserves.
+>*  `Swap.move` — Executes swaps using the AMM formula with fee logic.
+>*  `Math.move` — Utility module for computing prices, ratios, and LP shares.
+>*  `Events.move` — Emits structured events (e.g., AddLiquidity, Swap, RemoveLiquidity).
 
 
 Each LiquidityPool is stored as a separate on-chain Sui object, giving full composability and traceability.
+
 
 ---
 
