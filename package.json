@@ -1,0 +1,11 @@
+{
+  "name": "sui_dex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/libaice/sui_dex.git",
+  "author": "libaice <libaice147@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui": "^1.30.5"
+  }
+}
